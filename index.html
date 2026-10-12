@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio | Luis Adrian Quinga</title>
+    <!-- Google Fonts: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Hero Section (Presentación) -->
+    <header class="min-vh-100 py-5 d-flex align-items-center justify-content-center text-center hero-gradient fade-in-section">
+        <div class="container">
+            <img src="img/perfil.jpeg" alt="Perfil de Luis Adrian" class="rounded-circle mb-4 shadow-lg perfil-img border border-5 border-white object-fit-cover" width="220" height="220">
+            <h1 class="display-4 fw-bold text-dark mb-2">Luis Adrian Quinga Nacimba</h1>
+            <h2 class="h4 text-primary fw-light mb-4">Desarrollador de Software Junior</h2>
+            <div class="mt-4 d-flex flex-column flex-sm-row justify-content-center gap-3">
+                <a href="#portafolio" class="btn btn-primary btn-lg rounded-pill px-4 shadow-sm btn-hover">
+                    <i class="fas fa-laptop-code me-2"></i> Ver Proyectos
+                </a>
+                <a href="cv.pdf" download="CV-Luis-Quinga.pdf" class="btn btn-outline-dark btn-lg rounded-pill px-4 shadow-sm btn-hover">
+                    <i class="fas fa-file-pdf me-2"></i> Descargar CV
+                </a>
+                <a href="#contacto" class="btn btn-warning btn-lg rounded-pill px-4 shadow-sm btn-hover">
+                    <i class="fas fa-envelope me-2"></i> Contáctame
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+    <!-- Habilidades Técnicas (Skills) -->
+    <section id="habilidades" class="py-5 fade-in-section">
+        <div class="container py-4">
+            <h2 class="text-center fw-bold mb-5 section-title d-table mx-auto position-relative">Habilidades Técnicas</h2>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="fw-semibold"><i class="fab fa-html5 text-danger me-2"></i>HTML</span>
+                            <span class="text-muted">90%</span>
+                        </div>
+                        <div class="progress rounded-pill shadow-sm">
+                            <div class="progress-bar bg-danger rounded-pill" role="progressbar" style="width: 90%;" aria-label="HTML" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="fw-semibold"><i class="fab fa-css3-alt text-info me-2"></i>CSS</span>
+                            <span class="text-muted">85%</span>
+                        </div>
+                        <div class="progress rounded-pill shadow-sm">
+                            <div class="progress-bar bg-info rounded-pill" role="progressbar" style="width: 85%;" aria-label="CSS" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="fw-semibold"><i class="fab fa-js text-warning me-2"></i>JavaScript</span>
+                            <span class="text-muted">80%</span>
+                        </div>
+                        <div class="progress rounded-pill shadow-sm">
+                            <div class="progress-bar bg-warning text-dark rounded-pill" role="progressbar" style="width: 80%;" aria-label="JavaScript" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="fw-semibold"><i class="fab fa-php text-primary me-2"></i>PHP</span>
+                            <span class="text-muted">85%</span>
+                        </div>
+                        <div class="progress rounded-pill shadow-sm">
+                            <div class="progress-bar bg-primary rounded-pill" role="progressbar" style="width: 85%;" aria-label="PHP" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="fw-semibold"><i class="fas fa-database text-success me-2"></i>MySQL</span>
+                            <span class="text-muted">80%</span>
+                        </div>
+                        <div class="progress rounded-pill shadow-sm">
+                            <div class="progress-bar bg-success rounded-pill" role="progressbar" style="width: 80%;" aria-label="MySQL" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="text-center mt-4">
+                        <span class="badge bg-dark rounded-pill px-3 py-2 m-1">Bootstrap 5</span>
+                        <span class="badge bg-dark rounded-pill px-3 py-2 m-1">Flexbox</span>
+                        <span class="badge bg-dark rounded-pill px-3 py-2 m-1">Git / GitHub</span>
+                        <span class="badge bg-dark rounded-pill px-3 py-2 m-1">SQL Server</span>
+                        <span class="badge bg-dark rounded-pill px-3 py-2 m-1">Cisco CLI</span>
+                        <span class="badge bg-dark rounded-pill px-3 py-2 m-1">ITIL 4</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portafolio de Proyectos -->
+    <section id="portafolio" class="py-5 bg-light fade-in-section">
+        <div class="container py-4">
+            <h2 class="text-center fw-bold mb-3 section-title d-table mx-auto position-relative">Portafolio de Proyectos</h2>
+            <p class="text-center text-muted mb-5 mt-4">Sistemas reales que he desarrollado durante mi formación en Ingeniería en TI.</p>
+            <div class="row g-4">
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 shadow-sm border-0 rounded-4 proyecto-card overflow-hidden">
+                        <div class="ratio ratio-16x9">
+                            <img src="img/Sandav.png" class="card-img-top object-fit-cover" alt="Captura del proyecto SANDAVB">
+                        </div>
+                        <div class="card-body d-flex flex-column p-3 p-lg-4">
+                            <h5 class="card-title h6 fw-bold">SANDAVB · Tienda de abrigos y sastrería</h5>
+                            <p class="card-text small text-muted">Página web completa para una tienda de abrigos y sastrería, donde el negocio puede mostrar y administrar sus productos.</p>
+                            <h6 class="fw-semibold small text-uppercase text-primary mb-2">Qué incluye</h6>
+                            <ul class="small text-muted ps-3 flex-grow-1">
+                                <li>Catálogo de prendas que se gestiona desde interfaces dinámicas.</li>
+                                <li>Base de datos diseñada e integrada con la aplicación.</li>
+                                <li>Desarrollo completo: desde la estructura de datos hasta lo que ve el cliente.</li>
+                            </ul>
+                            <div class="mt-2 mb-3">
+                                <span class="badge bg-primary rounded-pill px-3 py-2 mb-1 shadow-sm">PHP</span>
+                                <span class="badge bg-dark rounded-pill px-3 py-2 mb-1 shadow-sm">MySQL</span>
+                                <span class="badge bg-warning text-dark rounded-pill px-3 py-2 mb-1 shadow-sm">JavaScript</span>
+                            </div>
+                            <a href="https://github.com/luisquinga1b-creator/Sandav" target="_blank" rel="noopener" class="btn btn-dark rounded-pill btn-hover mt-auto">
+                                <i class="fab fa-github me-2"></i> Ver en GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 shadow-sm border-0 rounded-4 proyecto-card overflow-hidden">
+                        <div class="ratio ratio-16x9">
+                            <img src="img/sistema.jpeg" class="card-img-top object-fit-cover" alt="Captura del proyecto SistemaBar">
+                        </div>
+                        <div class="card-body d-flex flex-column p-3 p-lg-4">
+                            <h5 class="card-title h6 fw-bold">SistemaBar · Punto de Venta (POS / CRUD)</h5>
+                            <p class="card-text small text-muted">Sistema para facturar y controlar el inventario de un establecimiento, con los datos bien organizados.</p>
+                            <h6 class="fw-semibold small text-uppercase text-primary mb-2">Qué incluye</h6>
+                            <ul class="small text-muted ps-3 flex-grow-1">
+                                <li>Facturación e inventario con operaciones CRUD (crear, consultar, editar y eliminar).</li>
+                                <li>Base de datos relacional en Tercera Forma Normal (3FN), sin datos repetidos.</li>
+                                <li>Triggers y procedimientos almacenados que automatizan reglas del negocio.</li>
+                            </ul>
+                            <div class="mt-2 mb-3">
+                                <span class="badge bg-danger rounded-pill px-3 py-2 mb-1 shadow-sm">SQL Server</span>
+                                <span class="badge bg-success rounded-pill px-3 py-2 mb-1 shadow-sm">JavaScript</span>
+                                <span class="badge bg-secondary rounded-pill px-3 py-2 mb-1 shadow-sm">CRUD</span>
+                            </div>
+                            <a href="https://github.com/luisquinga1b-creator/Bar-sql" target="_blank" rel="noopener" class="btn btn-dark rounded-pill btn-hover mt-auto">
+                                <i class="fab fa-github me-2"></i> Ver en GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 shadow-sm border-0 rounded-4 proyecto-card overflow-hidden">
+                        <div class="ratio ratio-16x9">
+                            <img src="img/itn.png" class="card-img-top object-fit-cover" alt="Mascota Camaleón iTIN">
+                        </div>
+                        <div class="card-body d-flex flex-column p-3 p-lg-4">
+                            <h5 class="card-title h6 fw-bold">Camaleón iTIN y Gestión de Servicios TI</h5>
+                            <p class="card-text small text-muted">Mascota 3D para la carrera universitaria y práctica de soporte técnico, simulando cómo una empresa atiende y documenta problemas de TI.</p>
+                            <h6 class="fw-semibold small text-uppercase text-primary mb-2">Qué incluye</h6>
+                            <ul class="small text-muted ps-3 flex-grow-1">
+                                <li>Diseño 3D de la mascota «Camaleón iTIN» en Blender, con sus reportes técnicos.</li>
+                                <li>Mesa de ayuda (Service Desk) con Jira y MantisBT bajo ITIL 4.</li>
+                                <li>Documentación del Plan de Recuperación ante Desastres (DRP).</li>
+                            </ul>
+                            <div class="mt-2 mb-3">
+                                <span class="badge bg-info text-dark rounded-pill px-3 py-2 mb-1 shadow-sm">Blender 3D</span>
+                                <span class="badge bg-primary rounded-pill px-3 py-2 mb-1 shadow-sm">Jira</span>
+                                <span class="badge bg-secondary rounded-pill px-3 py-2 mb-1 shadow-sm">MantisBT</span>
+                                <span class="badge bg-dark rounded-pill px-3 py-2 mb-1 shadow-sm">ITIL 4</span>
+                            </div>
+                            <a href="https://github.com/luisquinga1b-creator/Logo-en-3D" target="_blank" rel="noopener" class="btn btn-dark rounded-pill btn-hover mt-auto">
+                                <i class="fab fa-github me-2"></i> Ver en GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Currículum Vitae -->
+    <section id="cv" class="py-5 fade-in-section">
+        <div class="container py-4 d-flex flex-column align-items-center text-center">
+            <h2 class="fw-bold mb-5 section-title d-table mx-auto position-relative">Mi Currículum Vitae</h2>
+            <p class="text-muted mb-4">Consulta mi formación, habilidades y proyectos en formato PDF.</p>
+            <div class="d-flex flex-column flex-sm-row gap-3">
+                <a href="cv.pdf" target="_blank" rel="noopener" class="btn btn-dark btn-lg rounded-pill px-4 shadow-sm btn-hover"><i class="fas fa-eye me-2"></i> Visualizar CV</a>
+                <a href="cv.pdf" download="CV-Luis-Quinga.pdf" class="btn btn-success btn-lg rounded-pill px-4 shadow-sm btn-hover"><i class="fas fa-download me-2"></i> Descargar CV (PDF)</a>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+    <footer id="contacto" class="bg-dark text-white text-center py-5 fade-in-section">
+        <div class="container">
+            <h4 class="mb-4 fw-bold">¿Trabajamos juntos?</h4>
+            <div class="d-flex justify-content-center gap-4 mb-4">
+                <a href="https://github.com/luisquinga1b-creator" target="_blank" rel="noopener" aria-label="GitHub" class="text-white fs-2 lh-sm icono-red bg-secondary bg-opacity-25 rounded-circle p-3 d-flex align-items-center justify-content-center"><i class="fab fa-github fa-fw"></i></a>
+                <a href="https://www.linkedin.com/in/luis-adrian-quinga-nacimba-1424ab374" target="_blank" rel="noopener" aria-label="LinkedIn" class="text-white fs-2 lh-sm icono-red bg-secondary bg-opacity-25 rounded-circle p-3 d-flex align-items-center justify-content-center"><i class="fab fa-linkedin-in fa-fw"></i></a>
+                <a href="mailto:Luisquinga1b@gmail.com" aria-label="Correo electrónico" class="text-white fs-2 lh-sm icono-red bg-secondary bg-opacity-25 rounded-circle p-3 d-flex align-items-center justify-content-center"><i class="fas fa-envelope fa-fw"></i></a>
+            </div>
+            <p class="mb-2">Luisquinga1b@gmail.com</p>
+            <p class="mb-0 text-white-50" id="copyright-text"></p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+
+
+/* Tipografía y scroll suave */
+body { font-family: 'Poppins', sans-serif; }
+html { scroll-behavior: smooth; }
+
+/* Degradado decorativo del hero */
+.hero-gradient { background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); }
+
+/* Efecto hover de la foto */
+.perfil-img { transition: transform 0.4s ease; }
+.perfil-img:hover { transform: scale(1.05); }
+
+/* Efecto hover de botones */
+.btn-hover { transition: all 0.3s ease; }
+.btn-hover:hover { transform: translateY(-3px); }
+
+/* Subrayado decorativo bajo los títulos */
+.section-title::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 4px;
+    background-color: #0d6efd;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2px;
+}
+
+/* Animación de las barras de progreso */
+.progress-bar { transition: width 1.5s cubic-bezier(0.22, 1, 0.36, 1); }
+
+/* Efecto hover de las tarjetas de proyectos */
+.proyecto-card { transition: all 0.4s ease; }
+.proyecto-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 1.5rem 3rem rgba(0,0,0,0.15) !important;
+}
+.proyecto-card img { transition: transform 0.5s ease; }
+.proyecto-card:hover img { transform: scale(1.03); }
+
+/* Efecto hover de los iconos de redes */
+.icono-red { transition: all 0.3s ease; }
+.icono-red:hover {
+    background-color: #0d6efd !important;
+    color: #ffffff !important;
+    transform: translateY(-5px);
+}
+
+/* Animación de entrada al hacer scroll (la activa script.js) */
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+.fade-in-section.is-visible { opacity: 1; transform: none; }
